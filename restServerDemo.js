@@ -1,7 +1,3 @@
-// npm install -g mysql
-// npm install -g request
-// npm install -g node-rest-client
-
 var express = require('express');
 var app = express();
 var mysql = require('mysql');
@@ -9,6 +5,7 @@ var request = require('request');
 var fs = require("fs");
 var rest = require("./restClientDemo.js");
 
+// http://127.0.0.1:8081/bet:0001/cnt:123
 app.get('/bet:gameId/cnt:cnt', function (req, res) {
     console.log( "hello nodejs" );
     var tmp1 = req.params.gameId;
