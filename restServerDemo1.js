@@ -1,6 +1,6 @@
 // npm install -g express
 // export NODE_PATH="/usr/local/lib/node_modules"
-// node server.js
+// node restServerDemo1.js
 var express = require('express');
 var app = express();
 var fs = require("fs");
